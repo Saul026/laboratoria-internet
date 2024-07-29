@@ -1,0 +1,91 @@
+.how-it-work {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    color: rgb(25, 28, 31);
+}
+.how-it-work h2 {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.elements {
+    margin-top: 61px;
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+.element {
+    width: 280px;
+    height: 164px;
+    display: flex;
+    flex-direction: column;
+}
+.element img {
+    width: 72px;
+    height: 72px;
+}
+.element h3 {
+    margin-top: 16px;
+    margin-bottom: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.element p {
+    color: rgb(94, 100, 106);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+@media (width <= 768px) {
+    .how-it-work {
+        margin-top: 56px;
+        margin-bottom: 56px;
+    }
+    .elements {
+        flex-wrap: wrap;
+        gap: 32px 34px;
+    }
+    .element {
+        width: 342px;
+        height: 76px;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 16px;
+    }
+    .element h3 {
+        margin: 0;
+    }
+}
+
+@media (width < 768px) {
+    .elements {
+        margin-top: 26px;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media (width <= 375px) {
+    .how-it-work h2 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .elements {
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 32px 34px;
+    }
+}
+@media (width <= 320px) {
+    .element {
+        height: auto;
+    }
+}

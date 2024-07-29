@@ -1,0 +1,54 @@
+.financial {
+    padding-top: 68px;
+    padding-bottom: 68px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 37px 32px;
+    background-color: #f6f8fa;
+}
+
+.card {
+    width: 592px;
+    color: rgb(25, 28, 31);
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.card h2 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+.card p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+@media (width <= 1920px) {
+    .financial {
+        gap: 37px 15px;
+    }
+}
+@media (width <= 768px) {
+    .financial {
+        gap: 20px;
+    }
+    .card {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 46px;
+    }
+}
+@media (width <= 375px) {
+    .financial {
+        gap: 20px;
+    }
+    .card {
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+    }
+}

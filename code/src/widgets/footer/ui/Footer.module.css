@@ -1,0 +1,13 @@
+.footer {
+    height: 88px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgb(236, 239, 242);
+    color: rgb(25, 28, 31);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+}
